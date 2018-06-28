@@ -1,0 +1,19 @@
+Order
+ - preorder: a <= b, b <= c => a <= c. a <= a
+ - partial order: a <= b, b <= a => a == b
+ - linear/total order: any a, b => a <= b or b <= a
+ - thin category: ordered set: any a, b, at-most 1 morphism (function) a -> b
+ - hom-set: set of morphisms from a -> b: C(a, b) or Hom-C(a, b)
+ - cycles: forbidden in partial order
+
+Monoid
+ - Associative
+    + (a -> b) -> c = a -> (b -> c)
+ - Unit / zero
+    + zero -> a = a
+    + a -> zero = a
+ - Commutative: not monoid law
+    + a -> b = b -> a
+ - f(x) = value of f at point x
+ - f _ = g _ => point-free equality
+
