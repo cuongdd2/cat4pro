@@ -1,0 +1,6 @@
+Composition of logs
+ - wrap A to Writer[A] = (A, String)
+ - compose(f: A => Writer[B], g: B => Writer[C]): A => Writer[C]
+
+Kleisli category
+ - type A -> derived type B + decoration

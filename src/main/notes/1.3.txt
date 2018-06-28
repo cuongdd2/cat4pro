@@ -1,3 +1,5 @@
+Graph
+ - Free category: each node is object, can connect to other node by adding more arrows
 Order
  - preorder: a <= b, b <= c => a <= c. a <= a
  - partial order: a <= b, b <= a => a == b
