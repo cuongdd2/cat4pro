@@ -1,0 +1,36 @@
+Initial object
+ - only one morphism / arrow to any object in category
+ - unique in isomorphism
+Terminal Object
+ - only one morphism coming to it from any object in category
+ - if b -> a: a more terminal than b
+ - poset: partial order set
+ - uniqueness of _ -> ()
+Duality
+ - C: category [reversing arrows] C-op : opposite category
+ - Initial object -> Terminal object
+ - reversing identity arrow: no-op
+ - co-: reversing
+   + co-product
+   + co-monad
+   + co-limit
+   + co-cones
+Isomorphisms
+ - a -> b and b -> a: a, b is isomorphism: similar
+ - isomorphism: invertible morphism
+ - inverse of morphism
+   + f . g = id
+   + g . f = id
+Products
+ - Pair
+ - product of 2 objects a, b is c.
+ - c has 2 projections (p, q).
+ - if there is c', there is a unique m: m . c = c'
+ - m: factorizer
+ - a, b in set -> (a, b)
+Coproduct
+ - Either
+ - of 2 objects a, b
+ - c has 2 injections
+ - if there is c', c  (m)-> c'
+ - coproduct is disjoint union
